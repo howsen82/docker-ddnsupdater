@@ -1,0 +1,10 @@
+{
+    "settings": [
+        {
+            "provider": "namecheap",
+            "domain": "example.com",
+            "host": "@",
+            "password": "e5322165c1d74692bfa6d807100c0310"
+        }
+    ]
+}

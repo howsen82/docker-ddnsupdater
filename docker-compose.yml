@@ -1,0 +1,44 @@
+# Owned by user ID of Docker container (1000)
+# chown -R 1000 data
+# all access (for creating json database file data/updates.json)
+# chmod 700 data
+# read access only
+# chmod 400 data/config.json
+
+version: '3.9'
+
+services:
+  ddns:
+    container_name: ddns-updater
+    image: qmcgaw/ddns-updater:latest
+    network_mode: bridge
+    volumes:
+      # - $(pwd)/data:/updater/data
+      - ./data:/updater/data
+    environment:
+      - CONFIG=
+      - PERIOD=5m
+      - UPDATE_COOLDOWN_PERIOD=5m
+      - PUBLICIP_FETCHERS=all
+      - PUBLICIP_HTTP_PROVIDERS=all
+      - PUBLICIPV4_HTTP_PROVIDERS=all
+      - PUBLICIPV6_HTTP_PROVIDERS=all
+      - PUBLICIP_DNS_PROVIDERS=all
+      - PUBLICIP_DNS_TIMEOUT=3s
+      - HTTP_TIMEOUT=10s
+      
+      # Web UI
+      - LISTENING_PORT=8000
+      - ROOT_URL=/
+
+      # Backup
+      - BACKUP_PERIOD=0 # 0 to disable
+      - BACKUP_DIRECTORY=/updater/data
+
+      # Other
+      - LOG_LEVEL=info
+      - LOG_CALLER=hidden
+      - SHOUTRRR_ADDRESSES=
+    ports:
+      - 8000:8000
+    restart: always
