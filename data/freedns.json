@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "freedns",
+            "domain": "domain.com",
+            "host": "host",
+            "token": "token",
+            "ip_version": "ipv4"
+        }
+    ]
+}

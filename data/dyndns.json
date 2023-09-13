@@ -1,0 +1,13 @@
+{
+    "settings": [
+        {
+            "provider": "dyn",
+            "domain": "domain.com",
+            "host": "@",
+            "username": "username",
+            "client_key": "client_key",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

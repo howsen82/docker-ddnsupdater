@@ -1,0 +1,13 @@
+{
+    "settings": [
+        {
+            "provider": "zoneedit",
+            "domain": "domain.com",
+            "host": "@",
+            "username": "username",
+            "token": "token",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

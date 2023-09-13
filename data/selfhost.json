@@ -1,0 +1,13 @@
+{
+    "settings": [
+        {
+            "provider": "selfhost.de",
+            "domain": "domain.com",
+            "host": "@",
+            "username": "username",
+            "password": "password",
+            "provider_ip": true,
+            "ip_version": "ipv4"
+        }
+    ]
+}

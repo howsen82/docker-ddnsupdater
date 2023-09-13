@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "dreamhost",
+            "domain": "domain.com",
+            "host": "@",
+            "key": "key",
+            "ip_version": "ipv4"
+        }
+    ]
+}

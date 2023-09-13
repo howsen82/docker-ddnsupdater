@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "gandi",
+            "domain": "domain.com",
+            "host": "@",
+            "key": "key",
+            "ttl": 3600,
+            "ip_version": "ipv4"
+        }
+    ]
+}

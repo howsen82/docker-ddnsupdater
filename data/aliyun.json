@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "aliyun",
+            "domain": "domain.com",
+            "host": "@",
+            "access_key_id": "yourtoken",
+            "access_secret": "your access_secret",
+            "ip_version": "ipv4"
+        }
+    ]
+}

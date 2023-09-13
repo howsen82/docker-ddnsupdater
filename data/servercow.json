@@ -1,0 +1,14 @@
+{
+    "settings": [
+        {
+            "provider": "servercow",
+            "domain": "domain.com",
+            "host": "",
+            "username": "servercow_username",
+            "password": "servercow_password",
+            "ttl": 600,
+            "provider_ip": true,
+            "ip_version": "ipv4"
+        }
+    ]
+}

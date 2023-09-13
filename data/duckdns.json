@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "duckdns",
+            "host": "host",
+            "token": "token",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

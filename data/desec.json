@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "desec",
+            "domain": "dedyn.io",
+            "host": "host",
+            "token": "token",
+            "ip_version": "ipv4",
+            "provider_ip": false
+        }
+    ]
+}

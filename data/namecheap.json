@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "namecheap",
+            "domain": "domain.com",
+            "host": "@",
+            "password": "password",
+            "provider_ip": true
+        }
+    ]
+}

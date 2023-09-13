@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "allinkl",
+            "domain": "domain.com",
+            "host": "host",
+            "username": "dynXXXXXXX",
+            "password": "password"
+        }
+    ]
+}

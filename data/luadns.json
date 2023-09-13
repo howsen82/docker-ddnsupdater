@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "luadns",
+            "domain": "domain.com",
+            "host": "@",
+            "email": "email",
+            "token": "token",
+            "ip_version": "ipv4"
+        }
+    ]
+}

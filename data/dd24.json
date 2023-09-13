@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "dd24",
+            "domain": "domain.com",
+            "host": "@",
+            "password": "password",
+            "ip_version": "ipv4"
+        }
+    ]
+}

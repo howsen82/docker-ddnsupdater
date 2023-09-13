@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "netcup",
+            "domain": "domain.com",
+            "host": "host",
+            "api_key": "xxxxx",
+            "password": "yyyyy",
+            "customer_number": "111111"
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+{
+    "settings": [
+        {
+            "provider": "spdyn",
+            "domain": "domain.com",
+            "host": "@",
+            "user": "user",
+            "password": "password",
+            "token": "token",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

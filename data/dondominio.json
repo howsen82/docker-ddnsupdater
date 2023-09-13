@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "dondominio",
+            "domain": "domain.com",
+            "name": "something",
+            "username": "username",
+            "password": "password",
+            "ip_version": "ipv4"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "linode",
+            "domain": "domain.com",
+            "host": "@",
+            "token": "token",
+            "ip_version": "ipv4"
+        }
+    ]
+}

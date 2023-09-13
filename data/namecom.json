@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "name.com",
+            "domain": "domain.com",
+            "host": "@",
+            "username": "username",
+            "token": "token"
+        }
+    ]
+}

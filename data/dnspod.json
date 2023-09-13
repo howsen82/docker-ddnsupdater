@@ -1,0 +1,11 @@
+{
+    "settings": [
+        {
+            "provider": "dnspod",
+            "domain": "domain.com",
+            "host": "@",
+            "token": "yourtoken",
+            "ip_version": "ipv4"
+        }
+    ]
+}

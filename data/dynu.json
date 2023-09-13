@@ -1,0 +1,14 @@
+{
+    "settings": [
+        {
+            "provider": "dynu",
+            "domain": "domain.com",
+            "host": "@",
+            "group": "group",
+            "username": "username",
+            "password": "password",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

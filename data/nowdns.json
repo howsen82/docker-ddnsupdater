@@ -1,0 +1,10 @@
+{
+    "settings": [
+        {
+            "provider": "nowdns",
+            "domain": "domain.com",
+            "username": "username",
+            "password": "password"
+        }
+    ]
+}

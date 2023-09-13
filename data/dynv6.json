@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "dynv6",
+            "domain": "domain.com",
+            "host": "@",
+            "token": "token",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

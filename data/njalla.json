@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "njalla",
+            "domain": "domain.com",
+            "host": "@",
+            "key": "key",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}

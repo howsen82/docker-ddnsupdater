@@ -1,0 +1,14 @@
+{
+    "settings": [
+        {
+            "provider": "ddnss",
+            "provider_ip": true,
+            "domain": "domain.com",
+            "host": "@",
+            "username": "user",
+            "password": "password",
+            "dual_stack": false,
+            "ip_version": "ipv4"
+        }
+    ]
+}

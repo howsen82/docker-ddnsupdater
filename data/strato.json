@@ -1,0 +1,12 @@
+{
+    "settings": [
+        {
+            "provider": "strato",
+            "domain": "domain.com",
+            "host": "@",
+            "password": "password",
+            "ip_version": "ipv4",
+            "provider_ip": true
+        }
+    ]
+}
